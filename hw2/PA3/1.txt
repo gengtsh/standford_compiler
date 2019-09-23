@@ -1,0 +1,251 @@
+Starting parse
+Entering state 0
+Reading a token: Next token is token CLASS (: )
+Shifting token CLASS (: )
+Entering state 1
+Reading a token: Next token is token TYPEID (: )
+Shifting token TYPEID (: )
+Entering state 6
+Reading a token: Next token is token '{' (: )
+Shifting token '{' (: )
+Entering state 12
+Reading a token: Next token is token '}' (: )
+Reducing stack by rule 10 (line 197):
+-> $$ = nterm feature_list (: )
+Stack now 0 1 6 12
+Entering state 22
+Next token is token '}' (: )
+Shifting token '}' (: )
+Entering state 31
+Reading a token: Next token is token ';' (: )
+Shifting token ';' (: )
+Entering state 41
+Reducing stack by rule 4 (line 184):
+   $1 = token CLASS (: )
+   $2 = token TYPEID (: )
+   $3 = token '{' (: )
+   $4 = nterm feature_list (: )
+   $5 = token '}' (: )
+   $6 = token ';' (: )
+-> $$ = nterm class (: )
+Stack now 0
+Entering state 4
+Reducing stack by rule 2 (line 175):
+   $1 = nterm class (: )
+-> $$ = nterm class_list (: )
+Stack now 0
+Entering state 3
+Reading a token: Next token is token CLASS (: )
+Shifting token CLASS (: )
+Entering state 1
+Reading a token: Next token is token OBJECTID (: )
+"bad.cl", line 15: syntax error at or near OBJECTID = b
+Shifting token error (: )
+Entering state 5
+Next token is token OBJECTID (: )
+Error: discarding token OBJECTID (: )
+Error: popping token error (: )
+Stack now 0 3 1
+Shifting token error (: )
+Entering state 5
+Reading a token: Next token is token INHERITS (: )
+Error: discarding token INHERITS (: )
+Error: popping token error (: )
+Stack now 0 3 1
+Shifting token error (: )
+Entering state 5
+Reading a token: Next token is token TYPEID (: )
+Error: discarding token TYPEID (: )
+Error: popping token error (: )
+Stack now 0 3 1
+Shifting token error (: )
+Entering state 5
+Reading a token: Next token is token '{' (: )
+Shifting token '{' (: )
+Entering state 9
+Reading a token: Next token is token '}' (: )
+Reducing stack by rule 10 (line 197):
+-> $$ = nterm feature_list (: )
+Stack now 0 3 1 5 9
+Entering state 15
+Next token is token '}' (: )
+Shifting token '}' (: )
+Entering state 25
+Reading a token: Next token is token ';' (: )
+Shifting token ';' (: )
+Entering state 36
+Reducing stack by rule 6 (line 189):
+   $1 = token CLASS (: )
+   $2 = token error (: )
+   $3 = token '{' (: )
+   $4 = nterm feature_list (: )
+   $5 = token '}' (: )
+   $6 = token ';' (: )
+-> $$ = nterm class (: )
+Stack now 0 3
+Entering state 8
+Reducing stack by rule 3 (line 178):
+   $1 = nterm class_list (: )
+   $2 = nterm class (: )
+-> $$ = nterm class_list (: )
+Stack now 0
+Entering state 3
+Reading a token: Next token is token CLASS (: )
+Shifting token CLASS (: )
+Entering state 1
+Reading a token: Next token is token TYPEID (: )
+Shifting token TYPEID (: )
+Entering state 6
+Reading a token: Next token is token INHERITS (: )
+Shifting token INHERITS (: )
+Entering state 11
+Reading a token: Next token is token OBJECTID (: )
+"bad.cl", line 19: syntax error at or near OBJECTID = a
+Shifting token error (: )
+Entering state 20
+Next token is token OBJECTID (: )
+Error: discarding token OBJECTID (: )
+Error: popping token error (: )
+Stack now 0 3 1 6 11
+Shifting token error (: )
+Entering state 20
+Reading a token: Next token is token '{' (: )
+Shifting token '{' (: )
+Entering state 28
+Reading a token: Next token is token '}' (: )
+Reducing stack by rule 10 (line 197):
+-> $$ = nterm feature_list (: )
+Stack now 0 3 1 6 11 20 28
+Entering state 38
+Next token is token '}' (: )
+Shifting token '}' (: )
+Entering state 48
+Reading a token: Next token is token ';' (: )
+Shifting token ';' (: )
+Entering state 70
+Reducing stack by rule 8 (line 191):
+   $1 = token CLASS (: )
+   $2 = token TYPEID (: )
+   $3 = token INHERITS (: )
+   $4 = token error (: )
+   $5 = token '{' (: )
+   $6 = nterm feature_list (: )
+   $7 = token '}' (: )
+   $8 = token ';' (: )
+-> $$ = nterm class (: )
+Stack now 0 3
+Entering state 8
+Reducing stack by rule 3 (line 178):
+   $1 = nterm class_list (: )
+   $2 = nterm class (: )
+-> $$ = nterm class_list (: )
+Stack now 0
+Entering state 3
+Reading a token: Next token is token CLASS (: )
+Shifting token CLASS (: )
+Entering state 1
+Reading a token: Next token is token TYPEID (: )
+Shifting token TYPEID (: )
+Entering state 6
+Reading a token: Next token is token OBJECTID (: )
+"bad.cl", line 23: syntax error at or near OBJECTID = inherts
+Shifting token error (: )
+Entering state 10
+Next token is token OBJECTID (: )
+Error: discarding token OBJECTID (: )
+Error: popping token error (: )
+Stack now 0 3 1 6
+Shifting token error (: )
+Entering state 10
+Reading a token: Next token is token TYPEID (: )
+Error: discarding token TYPEID (: )
+Error: popping token error (: )
+Stack now 0 3 1 6
+Shifting token error (: )
+Entering state 10
+Reading a token: Next token is token '{' (: )
+Shifting token '{' (: )
+Entering state 19
+Reading a token: Next token is token '}' (: )
+Reducing stack by rule 10 (line 197):
+-> $$ = nterm feature_list (: )
+Stack now 0 3 1 6 10 19
+Entering state 27
+Next token is token '}' (: )
+Shifting token '}' (: )
+Entering state 37
+Reading a token: Next token is token ';' (: )
+Shifting token ';' (: )
+Entering state 47
+Reducing stack by rule 7 (line 190):
+   $1 = token CLASS (: )
+   $2 = token TYPEID (: )
+   $3 = token error (: )
+   $4 = token '{' (: )
+   $5 = nterm feature_list (: )
+   $6 = token '}' (: )
+   $7 = token ';' (: )
+-> $$ = nterm class (: )
+Stack now 0 3
+Entering state 8
+Reducing stack by rule 3 (line 178):
+   $1 = nterm class_list (: )
+   $2 = nterm class (: )
+-> $$ = nterm class_list (: )
+Stack now 0
+Entering state 3
+Reading a token: Next token is token CLASS (: )
+Shifting token CLASS (: )
+Entering state 1
+Reading a token: Next token is token TYPEID (: )
+Shifting token TYPEID (: )
+Entering state 6
+Reading a token: Next token is token INHERITS (: )
+Shifting token INHERITS (: )
+Entering state 11
+Reading a token: Next token is token TYPEID (: )
+Shifting token TYPEID (: )
+Entering state 21
+Reading a token: Next token is token '{' (: )
+Shifting token '{' (: )
+Entering state 30
+Reading a token: Next token is token ';' (: )
+"bad.cl", line 28: syntax error at or near ';'
+Shifting token error (: )
+Entering state 13
+Reducing stack by rule 15 (line 206):
+   $1 = token error (: )
+-> $$ = nterm feature (: )
+Stack now 0 3 1 6 11 21 30
+Entering state 16
+Reducing stack by rule 11 (line 198):
+   $1 = nterm feature (: )
+-> $$ = nterm feature_list (: )
+Stack now 0 3 1 6 11 21 30
+Entering state 40
+Next token is token ';' (: )
+Error: discarding token ';' (: )
+Shifting token error (: )
+Entering state 13
+Reducing stack by rule 15 (line 206):
+   $1 = token error (: )
+-> $$ = nterm feature (: )
+Stack now 0 3 1 6 11 21 30 40
+Entering state 26
+Reducing stack by rule 12 (line 200):
+   $1 = nterm feature_list (: )
+   $2 = nterm feature (: )
+-> $$ = nterm feature_list (: )
+Stack now 0 3 1 6 11 21 30
+Entering state 40
+Reading a token: Now at end of input.
+Cleanup: discarding lookahead token $end (: )
+Stack now 0 3 1 6 11 21 30 40
+Cleanup: popping nterm feature_list (: )
+Cleanup: popping token '{' (: )
+Cleanup: popping token TYPEID (: )
+Cleanup: popping token INHERITS (: )
+Cleanup: popping token TYPEID (: )
+Cleanup: popping token CLASS (: )
+Cleanup: popping nterm class_list (: )
+Compilation halted due to lex and parse errors
